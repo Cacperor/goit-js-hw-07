@@ -15,7 +15,6 @@ destroyButton.addEventListener("click", destroyBoxes);
 function createBoxes(amount) {
   amount = parseInt(amount);
 
-
   destroyBoxes(); 
 
   let boxSize = 30;
