@@ -4,6 +4,9 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
+createButton.addEventListener("click", () => createBoxes(input.value));
+destroyButton.addEventListener("click", destroyBoxes);
+
 const controls = document.getElementById("controls");
 const input = controls.querySelector("input");
 const createButton = controls.querySelector("[data-create]");
@@ -32,8 +35,6 @@ function createBoxes(amount) {
   }
 }
 
-createButton.addEventListener("click", () => createBoxes(input.value));
-destroyButton.addEventListener("click", destroyBoxes);
 
 
 
