@@ -1,7 +1,7 @@
 const listWithId = document.querySelector('#categories');
 const numOfCategories = listWithId.querySelectorAll('li.item').length;
 console.log('Number of categories: ' + numOfCategories);
-
+console.log('');
 
     const categoriesList = document.getElementById("categories");
     const categoryItems = categoriesList.querySelectorAll(".item");
@@ -13,5 +13,6 @@ console.log('Number of categories: ' + numOfCategories);
   
       console.log(`Category: ${categoryName}`);
       console.log(`Elements: ${elementsCount}`);
+      console.log('');
     });
   ;
