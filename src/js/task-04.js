@@ -15,10 +15,6 @@ destroyButton.addEventListener("click", destroyBoxes);
 function createBoxes(amount) {
   amount = parseInt(amount);
 
-  if (isNaN(amount) || amount < 1 || amount > 100) {
-    alert("Please enter a number between 1 and 100.");
-    return;
-  }
 
   destroyBoxes(); 
 
